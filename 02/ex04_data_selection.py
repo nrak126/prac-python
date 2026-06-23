@@ -22,7 +22,7 @@ for i in range(arr.__len__()):
 
 # ステップ3: 上位50個を抽出して新しいリストを作る
 # TODO: ソート済み data の後半50個をスライスで取り出す
-sliced_arr = arr[50:100]
+sliced_arr = arr[50:]
 
 # ステップ4: 抽出した中からランダムに2個を選び表示する
 # TODO: random.sample() を使って top50 から2個選ぶ
