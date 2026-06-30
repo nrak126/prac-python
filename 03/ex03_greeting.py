@@ -1,5 +1,5 @@
 def say_hello(name: str) -> str:
-    pass
+    return name + "さん、こんにちは！"
 
 
 print(say_hello("田中"))

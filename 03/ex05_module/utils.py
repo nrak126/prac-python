@@ -1,6 +1,6 @@
 def say_hello(name: str) -> str:
-    pass
+    return name + "さん、こんにちは！"
 
 
 def calc_tax(price: int) -> float:
-    pass
+    return price * 1.1

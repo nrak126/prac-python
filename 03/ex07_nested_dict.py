@@ -4,3 +4,4 @@ user_status = {
 }
 
 # TODO: equipment の中にある武器 (weapon) を取り出して表示する
+print(user_status["equipment"]["weapon"])
