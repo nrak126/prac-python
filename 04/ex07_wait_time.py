@@ -17,9 +17,9 @@ waiting_times = []
 for arrival_time in arrival_times:
 	waiting_times.append(pre_finish_time - arrival_time)
 	if pre_finish_time <= arrival_time:
-		pre_finish_time = 3 + arrival_time
+		pre_finish_time = play_time + arrival_time
 	else:
-		pre_finish_time += 3
+		pre_finish_time += play_time
 
 
 # TODO: 最長待ち時間を表示する
