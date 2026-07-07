@@ -1,0 +1,12 @@
+[
+  {"name": "りんご",     "stock": 5},
+  {"name": "バナナ",     "stock": 20},
+  {"name": "みかん",     "stock": 3},
+  {"name": "ぶどう",     "stock": 15},
+  {"name": "いちご",     "stock": 8},
+  {"name": "メロン",     "stock": 12},
+  {"name": "もも",       "stock": 2},
+  {"name": "キウイ",     "stock": 30},
+  {"name": "なし",       "stock": 7},
+  {"name": "スイカ",     "stock": 25}
+]
