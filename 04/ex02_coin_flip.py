@@ -4,8 +4,11 @@
 import random
 
 # TODO: 初期点数を設定する
+score = 100
 
 # TODO: 20回ループしてコインを投げ、点数を更新する
-
+for i in range(0, 20):
+	score += random.randint(0, 1) * 15 - 5
 
 # TODO: 最終的な持ち点を表示する
+print(score)

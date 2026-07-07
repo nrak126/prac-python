@@ -13,7 +13,7 @@ count = 0
 for s in scores:
     if s >= 60:
         total += s
-    count += 1
+        count += 1
         
 average = total / count 
 print("60点以上の平均点:", average)
