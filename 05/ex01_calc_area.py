@@ -3,7 +3,7 @@ import math
 # お題：円の面積を計算する関数
 # ライターの仕様書に従って、計算処理を実装してください。
 def calc_circle_area(radius):
-    pass
+    return math.pi * radius ** 2
 
 
 # テスト例
